@@ -26,7 +26,7 @@ export default function LoginScreen() {
     <div className="h-screen flex flex-col justify-center px-8 bg-white">
       <div className="mb-12">
         <div className="w-12 h-12 bg-primary-50 rounded-xl flex items-center justify-center mb-6">
-            <span className="text-2xl">👋</span>
+          <span className="text-2xl">👋</span>
         </div>
         <h1 className="text-4xl font-bold font-display text-gray-900 mb-2">Welcome Back!</h1>
         <p className="text-gray-500">Log in to continue saving together.</p>
@@ -46,6 +46,9 @@ export default function LoginScreen() {
               required
             />
           </div>
+          <p className="text-xs text-gray-500 ml-1 mt-1">
+            Demo: Use <span className="font-semibold text-primary-600">priya@test.com</span> or <span className="font-semibold text-primary-600">demo@test.com</span>
+          </p>
         </div>
 
         <div className="space-y-2">
